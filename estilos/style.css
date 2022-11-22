@@ -42,3 +42,18 @@ section#telefone {
     background: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
 }
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 20px 0px black;;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(5px);
+    transition: transform 0.3s;
+}
+
